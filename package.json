@@ -1,0 +1,24 @@
+{
+  "name": "desafio_sesc",
+  "version": "1.0.0",
+  "description": "Desafio número por extenso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrerondi/desafio_sesc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrerondi/desafio_sesc/issues"
+  },
+  "homepage": "https://github.com/andrerondi/desafio_sesc#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
