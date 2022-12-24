@@ -4,6 +4,6 @@ const extenso = require("./routes/extenso")
 
 
 
-app.use('/****', extenso);
+app.use('/*', extenso);
 
 app.listen(3001)
