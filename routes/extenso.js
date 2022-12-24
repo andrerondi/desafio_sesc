@@ -25,11 +25,17 @@ router.get('/', (req, res) => {
                 const result2 = result1.replace(' e zero', '');
                 const result3 = result2.replace(' e zero', '');
                 const resultado = result3.replace(' e zero', '');
+
                 if (numero >= 0) {
                     return resultado;
                 }
                 else {
-                    return 'menos ' + resultado;
+                    if (numeroString.length > 5) {
+                        return resultado;
+                    }
+                    else {
+                        return 'menos ' + resultado;
+                    }
                 }
             }
         }
@@ -70,6 +76,9 @@ router.get('/', (req, res) => {
         else if (numeroString.length == 5) {
             const d_mil = d_milhar(numeroString);
             return d_mil;
+        }
+        else {
+            return 'valor não suportado';
         }
     }
     
